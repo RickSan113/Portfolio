@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio SENAI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="https://github.com/RickSan113">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Bem-vindo ao Meu Portfólio</h1>
+        <p>Eu me chamo Rick, e este é o meu portfólio onde você pode ver alguns dos meus projetos e serviços realizados ao longo desse ano. Este portfólio, por sua vez, também está sendo computado e servirá como critério para nota a final do bimestre. Sinta-se à vontade para analisar minhas atividades e argumentar sobre. Para mais informações ou outra forma de contato, segue o meu perfil no Github acima em anexo na aba de "Contato" .</p>
+        <img src="git.png" alt="Imagem do meu perfil Git">
+      </section>
+
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Eu sou Rick Simões Rabelo, e atualmente estou cursando área de Desenvolvimento de Sistemas no SENAI - CETAF AJU. Comecei a me interessar pela área ainda no primeiro ano do Ensino Médio integrado, porém, só comecei a estudar definitivamente no segundo ano. Neilton Barreto, meu lecionador, é o responsável por nos instruir desde o início, nos ensinando todos os conceitos de lógica da programação, elaborando atividades e avaliações teóricas e práticas para o nosso desenvolvimento nesse âmbito. Atualmente estamos no último semestre do curso, no momento na área de Programação de Aplicativos, com ênfase em criação de sites usando HTML, CSS e JavaScript. O módulo possui uma carga horária total de 160 horas. Abaixo seguem algumas atividades de projetos elaborados ao decorrer do ano: </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projetos</h2>
+        <div class="project">
+            <h3>Projeto 1</h3>
+            <img src="project1.png" alt="Imagem do Projeto 1">
+            <p>Como uma das últimas atividades elaboradas e projetos iniciais com a inclusão do JS até então, pudemos criar um script que operava e executava as quatro operações básicas (soma, subtração, multiplicação, adição). Com isso, elaborei um modelo de uma calculadora comum, ao qual atendia os requisitos solicitados da atividade. Utilizamos HTML, CSS e JavaScript.</p>
+        </div>
+        <div class="project">
+            <h3>Projeto 2</h3>
+            <img src="project2.png" alt="Imagem do Projeto 2">
+            <p>Nesse projeto, pude compreender como funciona a construção e estilização de um site utilizando HTML. Sendo essa uma das primeiras atividades elaboradas do assunto, ficamos encarregados de criar o nosso próprio Perfil Social, onde pude identificar elementos importantes para a inclusão e estilização de um site. No mais, fiquei muito contente com o resultado final.</p>
+        </div>
+        <div class="project">
+            <h3>Projeto 3</h3>
+            <img src="project3.png" alt="Imagem do Projeto 3">
+            <p>O projeto da literatura de cordel foi muito interessante de ser feito. Com o objetivo de transformar a poesia e levá-la para o nosso próprio site, fomos induzidos a criá-lo, com elementos já disponibilizados em uma pasta para a estilização. Usando HTML e CSS, criei um site com uma poesia inclusa, onde utilizei nas imagens inclusas às estrofes o efeito Parallax para mantê-las estáticas mesmo utilizando o scroll para visualização completa. Além disso, incluímos fontes específicas para a elaboração do projeto do cordel.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Mande-me uma mensagem!</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="form-message"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rick S. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
